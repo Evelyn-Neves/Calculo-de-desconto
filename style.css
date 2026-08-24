@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, rgb(65, 0, 126), rgb(197, 29, 230));
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh
+}
+#formulario{
+    width: 25em;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+    font-size: 20px;
+}
+#txtNome, #txtValorCompra, #cmbPag{
+    width: 100%; 
+    padding: 12px; 
+    font-size: 18px; 
+    margin-bottom: 15px;
+}
+.botao:hover{
+    background-color: rgb(105, 26, 179);
+    color: white;
+}
